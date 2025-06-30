@@ -1,0 +1,24 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "sample socket project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jquery": "^3.7.1",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
