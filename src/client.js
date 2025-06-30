@@ -16,7 +16,7 @@ roomInput1.addEventListener('click', (event) => {
 async function  myRoom(roomid){
 const roomId = roomid;
       const role='user';
-      const socket = new WebSocket("http://127.0.0.1:3045/");
+      const socket = new WebSocket("https://webrtc-server-w5k1.onrender.com/");
       let peerConnection;
 
       const config = {
